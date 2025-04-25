@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/txt_ultimo_alerta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Último alerta: Nenhum"
+        android:textSize="14sp"
+        android:paddingBottom="16dp" />
+
+    <TextView
+        android:id="@+id/txt_localizacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Localização atual: -"
+        android:textSize="16sp"
+        android:paddingBottom="24dp" />
+
+    <Button
+        android:id="@+id/btn_pegar_localizacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="📍 Pegar localização atual" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="16dp" />
+
+    <Button
+        android:id="@+id/btn_calibrar_limite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🚧 Calibrar limite" />
+
+    <Button
+        android:id="@+id/btn_ver_historico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="📖 Ver Histórico"
+        android:layout_marginTop="24dp"/>
+
+    <Button
+        android:id="@+id/btn_configuracoes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="⚙️ Configurações"
+        android:layout_marginTop="24dp"/>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:background="#FFCDD2"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/txt_alerta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🛑 DEIXE O CELULAR NO QUARTO"
+            android:textSize="24sp"
+            android:textColor="#B71C1C"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:id="@+id/txt_timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tempo fora da zona: 0:00"
+            android:textSize="18sp"
+            android:textColor="#B71C1C"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btn_desligar_alarme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Desligar Alarme"
+            android:backgroundTint="#B71C1C"
+            android:textColor="#FFF"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
