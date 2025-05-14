@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GeoLockApp</string>
+    <string name="localiza_o_atual">Localização atual: -</string>
+    <string name="pegar_localiza_o_atual">📍 Pegar localização atual</string>
+    <string name="calibrar_limite">🚧 Calibrar limite</string>
+    <string name="ltimo_alerta">Último alerta: -</string>
+    <string name="ver_hist_rico">📖 Ver Histórico</string>
+</resources>
